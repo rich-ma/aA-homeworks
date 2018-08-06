@@ -1,0 +1,76 @@
+body {
+  background-image: url("splash.jpg");
+}
+
+header {
+  display: flex;
+  width: inherit;
+  height: 75px;
+  background: whitesmoke;
+  justify-content: space-between;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.top-nav li {
+   margin-right: 10px;
+   padding: 10px;
+   text-decoration: none;
+}
+.top-nav li a {
+  text-decoration: none;
+  color: black;
+}
+.top-nav > li a:hover {
+  color: green;
+}
+
+.login-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.login-nav li {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.login-nav li a {
+  text-decoration: none;
+  color: black;
+}
+.login-nav>li a:hover {
+  color: green;
+}
+
+p {
+  color: white;
+  left: 50%;
+  top: 50%;
+}
+
+.user-nav {
+  color: black;
+  display: inline-block;
+}
+.user-nav p {
+  color: black;
+}
+
+.user-nav > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: darkgray;
+}
